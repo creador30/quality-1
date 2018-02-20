@@ -13,7 +13,7 @@ with open('quality/__init__.py', 'rb') as f:
 requirements = parse_requirements("requirements.txt", session="")
 
 setup(
-	name='quality',
+	name='quality-1',
 	version=version,
 	description='Quality related app with CAPA, DMS, complaints, trending, ...',
 	author='Lars Müller',
